@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "63b56477e2ababe3ed283b05",
+    "index": 0,
+    "guid": "dcf31a41-2c44-4515-ba7e-4a3a90df5b89",
+    "isActive": false,
+    "balance": "$3,485.38",
+    "picture": "http://placehold.it/32x32",
+    "age": 33,
+    "eyeColor": "brown",
+    "name": "Lloyd Kelly",
+    "gender": "male",
+    "company": "FARMEX",
+    "email": "lloydkelly@farmex.com",
+    "phone": "+1 (990) 500-2364",
+    "address": "635 Nautilus Avenue, Spokane, Delaware, 267",
+    "about": "Eiusmod deserunt reprehenderit ea Lorem incididunt nostrud sit incididunt enim amet adipisicing irure elit nulla. Id est nostrud amet quis nisi laborum eu pariatur aute laborum. Tempor tempor non labore esse do nostrud velit ad mollit in. Est occaecat ex excepteur mollit fugiat pariatur mollit ipsum ad anim dolor. Esse labore commodo adipisicing duis elit duis ut adipisicing aliqua aliqua ut mollit laboris. Occaecat deserunt qui ullamco ut velit dolore veniam exercitation voluptate sint irure.\r\n",
+    "registered": "2021-05-29T07:20:33 -06:00",
+    "latitude": 82.346621,
+    "longitude": -139.554983,
+    "tags": [
+      "eiusmod",
+      "esse",
+      "aute",
+      "labore",
+      "sunt",
+      "est",
+      "duis"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jill Holcomb"
+      },
+      {
+        "id": 1,
+        "name": "Belinda Oliver"
+      },
+      {
+        "id": 2,
+        "name": "Jodie Delaney"
+      }
+    ],
+    "greeting": "Hello, Lloyd Kelly! You have 7 unread messages.",
+    "favoriteFruit": "apple"
+  }
+]

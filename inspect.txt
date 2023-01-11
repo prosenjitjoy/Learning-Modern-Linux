@@ -1,0 +1,287 @@
+[
+     {
+          "Id": "10f78375e756df04a157046f6ba6ac0182d19a3d15653fd542c1fdfa316625b0",
+          "Created": "2023-01-11T23:46:50.503765932+06:00",
+          "Path": "/bin/prometheus",
+          "Args": [
+               "--config.file=/etc/prometheus/prometheus.yml",
+               "--storage.tsdb.path=/prometheus",
+               "--web.console.libraries=/usr/share/prometheus/console_libraries",
+               "--web.console.templates=/usr/share/prometheus/consoles"
+          ],
+          "State": {
+               "OciVersion": "1.0.2-dev",
+               "Status": "running",
+               "Running": true,
+               "Paused": false,
+               "Restarting": false,
+               "OOMKilled": false,
+               "Dead": false,
+               "Pid": 46351,
+               "ConmonPid": 46349,
+               "ExitCode": 0,
+               "Error": "",
+               "StartedAt": "2023-01-11T23:46:50.885478459+06:00",
+               "FinishedAt": "0001-01-01T00:00:00Z",
+               "Health": {
+                    "Status": "",
+                    "FailingStreak": 0,
+                    "Log": null
+               },
+               "CgroupPath": "/user.slice/user-1000.slice/user@1000.service/user.slice/libpod-10f78375e756df04a157046f6ba6ac0182d19a3d15653fd542c1fdfa316625b0.scope",
+               "CheckpointedAt": "0001-01-01T00:00:00Z",
+               "RestoredAt": "0001-01-01T00:00:00Z"
+          },
+          "Image": "932c2dbe7d3e320b60d9c6dc3a31c76a023e4a4a2466531600ae92ce239cf6df",
+          "ImageDigest": "sha256:1a3e9a878e50cd339ae7cf5718fda08381dda2d4ccd28e94bbaa3190d1a566c2",
+          "ImageName": "docker.io/prom/prometheus:latest",
+          "Rootfs": "",
+          "Pod": "",
+          "ResolvConfPath": "/run/user/1000/containers/vfs-containers/10f78375e756df04a157046f6ba6ac0182d19a3d15653fd542c1fdfa316625b0/userdata/resolv.conf",
+          "HostnamePath": "/run/user/1000/containers/vfs-containers/10f78375e756df04a157046f6ba6ac0182d19a3d15653fd542c1fdfa316625b0/userdata/hostname",
+          "HostsPath": "/run/user/1000/containers/vfs-containers/10f78375e756df04a157046f6ba6ac0182d19a3d15653fd542c1fdfa316625b0/userdata/hosts",
+          "StaticDir": "/home/joy/.local/share/containers/storage/vfs-containers/10f78375e756df04a157046f6ba6ac0182d19a3d15653fd542c1fdfa316625b0/userdata",
+          "OCIConfigPath": "/home/joy/.local/share/containers/storage/vfs-containers/10f78375e756df04a157046f6ba6ac0182d19a3d15653fd542c1fdfa316625b0/userdata/config.json",
+          "OCIRuntime": "crun",
+          "ConmonPidFile": "/run/user/1000/containers/vfs-containers/10f78375e756df04a157046f6ba6ac0182d19a3d15653fd542c1fdfa316625b0/userdata/conmon.pid",
+          "PidFile": "/run/user/1000/containers/vfs-containers/10f78375e756df04a157046f6ba6ac0182d19a3d15653fd542c1fdfa316625b0/userdata/pidfile",
+          "Name": "prometheus",
+          "RestartCount": 0,
+          "Driver": "vfs",
+          "MountLabel": "",
+          "ProcessLabel": "",
+          "AppArmorProfile": "",
+          "EffectiveCaps": null,
+          "BoundingCaps": [
+               "CAP_CHOWN",
+               "CAP_DAC_OVERRIDE",
+               "CAP_FOWNER",
+               "CAP_FSETID",
+               "CAP_KILL",
+               "CAP_NET_BIND_SERVICE",
+               "CAP_SETFCAP",
+               "CAP_SETGID",
+               "CAP_SETPCAP",
+               "CAP_SETUID",
+               "CAP_SYS_CHROOT"
+          ],
+          "ExecIDs": [],
+          "GraphDriver": {
+               "Name": "vfs",
+               "Data": null
+          },
+          "Mounts": [
+               {
+                    "Type": "volume",
+                    "Name": "0055a395439536e521b9f4c2a0bc5c970ef3b7f3b19b0b102a456669e98a1730",
+                    "Source": "/home/joy/.local/share/containers/storage/volumes/0055a395439536e521b9f4c2a0bc5c970ef3b7f3b19b0b102a456669e98a1730/_data",
+                    "Destination": "/prometheus",
+                    "Driver": "local",
+                    "Mode": "",
+                    "Options": [
+                         "nodev",
+                         "exec",
+                         "nosuid",
+                         "rbind"
+                    ],
+                    "RW": true,
+                    "Propagation": "rprivate"
+               },
+               {
+                    "Type": "bind",
+                    "Source": "/home/joy/Code/linux/prometheus.yml",
+                    "Destination": "/etc/prometheus/prometheus.yml",
+                    "Driver": "",
+                    "Mode": "",
+                    "Options": [
+                         "rbind"
+                    ],
+                    "RW": true,
+                    "Propagation": "rprivate"
+               }
+          ],
+          "Dependencies": [],
+          "NetworkSettings": {
+               "EndpointID": "",
+               "Gateway": "",
+               "IPAddress": "",
+               "IPPrefixLen": 0,
+               "IPv6Gateway": "",
+               "GlobalIPv6Address": "",
+               "GlobalIPv6PrefixLen": 0,
+               "MacAddress": "",
+               "Bridge": "",
+               "SandboxID": "",
+               "HairpinMode": false,
+               "LinkLocalIPv6Address": "",
+               "LinkLocalIPv6PrefixLen": 0,
+               "Ports": {
+                    "9090/tcp": [
+                         {
+                              "HostIp": "",
+                              "HostPort": "9090"
+                         }
+                    ]
+               },
+               "SandboxKey": "/run/user/1000/netns/netns-4d10b19e-07a2-b19f-9dc4-4c25db63d5f8"
+          },
+          "Namespace": "",
+          "IsInfra": false,
+          "IsService": false,
+          "Config": {
+               "Hostname": "10f78375e756",
+               "Domainname": "",
+               "User": "nobody",
+               "AttachStdin": false,
+               "AttachStdout": false,
+               "AttachStderr": false,
+               "Tty": false,
+               "OpenStdin": false,
+               "StdinOnce": false,
+               "Env": [
+                    "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                    "TERM=xterm",
+                    "container=podman",
+                    "HOME=/home",
+                    "HOSTNAME=10f78375e756"
+               ],
+               "Cmd": [
+                    "--config.file=/etc/prometheus/prometheus.yml",
+                    "--storage.tsdb.path=/prometheus",
+                    "--web.console.libraries=/usr/share/prometheus/console_libraries",
+                    "--web.console.templates=/usr/share/prometheus/consoles"
+               ],
+               "Image": "docker.io/prom/prometheus:latest",
+               "Volumes": null,
+               "WorkingDir": "/prometheus",
+               "Entrypoint": "/bin/prometheus",
+               "OnBuild": null,
+               "Labels": {
+                    "maintainer": "The Prometheus Authors <prometheus-developers@googlegroups.com>"
+               },
+               "Annotations": {
+                    "io.container.manager": "libpod",
+                    "io.kubernetes.cri-o.Created": "2023-01-11T23:46:50.503765932+06:00",
+                    "io.kubernetes.cri-o.TTY": "false",
+                    "io.podman.annotations.autoremove": "TRUE",
+                    "io.podman.annotations.init": "FALSE",
+                    "io.podman.annotations.privileged": "FALSE",
+                    "io.podman.annotations.publish-all": "FALSE",
+                    "org.opencontainers.image.stopSignal": "15"
+               },
+               "StopSignal": 15,
+               "HealthcheckOnFailureAction": "none",
+               "CreateCommand": [
+                    "podman",
+                    "run",
+                    "--rm",
+                    "--name",
+                    "prometheus",
+                    "-d",
+                    "-p",
+                    "9090:9090",
+                    "-v",
+                    "/home/joy/Code/linux/prometheus.yml:/etc/prometheus/prometheus.yml",
+                    "prom/prometheus"
+               ],
+               "Umask": "0022",
+               "Timeout": 0,
+               "StopTimeout": 10,
+               "Passwd": true,
+               "sdNotifyMode": "container"
+          },
+          "HostConfig": {
+               "Binds": [
+                    "0055a395439536e521b9f4c2a0bc5c970ef3b7f3b19b0b102a456669e98a1730:/prometheus:rprivate,rw,nodev,exec,nosuid,rbind",
+                    "/home/joy/Code/linux/prometheus.yml:/etc/prometheus/prometheus.yml:rw,rprivate,rbind"
+               ],
+               "CgroupManager": "systemd",
+               "CgroupMode": "private",
+               "ContainerIDFile": "",
+               "LogConfig": {
+                    "Type": "journald",
+                    "Config": null,
+                    "Path": "",
+                    "Tag": "",
+                    "Size": "0B"
+               },
+               "NetworkMode": "slirp4netns",
+               "PortBindings": {
+                    "9090/tcp": [
+                         {
+                              "HostIp": "",
+                              "HostPort": "9090"
+                         }
+                    ]
+               },
+               "RestartPolicy": {
+                    "Name": "",
+                    "MaximumRetryCount": 0
+               },
+               "AutoRemove": true,
+               "VolumeDriver": "",
+               "VolumesFrom": null,
+               "CapAdd": [],
+               "CapDrop": [
+                    "CAP_AUDIT_WRITE",
+                    "CAP_MKNOD",
+                    "CAP_NET_RAW"
+               ],
+               "Dns": [],
+               "DnsOptions": [],
+               "DnsSearch": [],
+               "ExtraHosts": [],
+               "GroupAdd": [],
+               "IpcMode": "shareable",
+               "Cgroup": "",
+               "Cgroups": "default",
+               "Links": null,
+               "OomScoreAdj": 0,
+               "PidMode": "private",
+               "Privileged": false,
+               "PublishAllPorts": false,
+               "ReadonlyRootfs": false,
+               "SecurityOpt": [],
+               "Tmpfs": {},
+               "UTSMode": "private",
+               "UsernsMode": "",
+               "ShmSize": 65536000,
+               "Runtime": "oci",
+               "ConsoleSize": [
+                    0,
+                    0
+               ],
+               "Isolation": "",
+               "CpuShares": 0,
+               "Memory": 0,
+               "NanoCpus": 0,
+               "CgroupParent": "user.slice",
+               "BlkioWeight": 0,
+               "BlkioWeightDevice": null,
+               "BlkioDeviceReadBps": null,
+               "BlkioDeviceWriteBps": null,
+               "BlkioDeviceReadIOps": null,
+               "BlkioDeviceWriteIOps": null,
+               "CpuPeriod": 0,
+               "CpuQuota": 0,
+               "CpuRealtimePeriod": 0,
+               "CpuRealtimeRuntime": 0,
+               "CpusetCpus": "",
+               "CpusetMems": "",
+               "Devices": [],
+               "DiskQuota": 0,
+               "KernelMemory": 0,
+               "MemoryReservation": 0,
+               "MemorySwap": 0,
+               "MemorySwappiness": 0,
+               "OomKillDisable": false,
+               "PidsLimit": 2048,
+               "Ulimits": [],
+               "CpuCount": 0,
+               "CpuPercent": 0,
+               "IOMaximumIOps": 0,
+               "IOMaximumBandwidth": 0,
+               "CgroupConf": null
+          }
+     }
+]
