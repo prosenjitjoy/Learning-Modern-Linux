@@ -1,0 +1,7 @@
+[Unit]
+Description=Path unit for watching for changes in "config"
+[Path]
+PathModified=/etc/test.conf
+Unit=testconf_watch.service
+[Install]
+WantedBy=multi-user.target

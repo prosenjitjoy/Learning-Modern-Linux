@@ -1,0 +1,7 @@
+[Unit]
+Description=This service is triggered through a file change
+[Service]
+Type=oneshot
+ExecStart=bash /home/prosenjit/Documents/sniff_printer.sh
+[Install]
+WantedBy=multi-user.target
